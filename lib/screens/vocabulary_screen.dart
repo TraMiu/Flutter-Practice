@@ -51,8 +51,8 @@ class _VocabularyListWidget extends StatelessWidget {
   
   const _VocabularyListWidget({
     required this.isWideScreen,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -124,8 +124,8 @@ class _VocabularyCard extends StatelessWidget {
   
   const _VocabularyCard({
     required this.word,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
